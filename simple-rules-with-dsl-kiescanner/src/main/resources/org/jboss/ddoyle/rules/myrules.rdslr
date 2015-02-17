@@ -1,0 +1,11 @@
+package be.hrrail.optitar;
+
+import org.jboss.ddoyle.rules.SimpleFact;
+
+rule "bla"
+when
+	There is a SimpleFact	   
+	-with id "1"
+then
+	Print "Found a simple fact with id 1."
+end
